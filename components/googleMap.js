@@ -14,8 +14,8 @@ function Maps() {
 function Map() {
     return (
       <GoogleMap
-        zoom={ 10 }
-        center={{ lat: 40, lng: -86 }}
+        zoom={ 10.5 }
+        center={{ lat: 39.8, lng: -86.2 }}
         mapContainerClassName="map-container"
       ></GoogleMap>
     );
