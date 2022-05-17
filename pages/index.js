@@ -3,6 +3,9 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Table from '../components/eventTable'
 import Maps from '../components/googleMap'
+import GetEventInfo from '../lib/fetchEventData'
+
+GetEventInfo()
 
 export default function Home() {
   return (
