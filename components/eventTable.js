@@ -11,7 +11,7 @@ function Table() {
   const columns = React.useMemo(
     () => [
       {
-        Header: 'Title',
+        Header: 'Event',
         accessor: 'title',
       },
       {
@@ -23,8 +23,8 @@ function Table() {
         accessor: 'link',
       },
       {
-        Header: 'Location',
-        accessor: 'location',
+        Header: 'Address',
+        accessor: 'address',
       },
     ],
     []
