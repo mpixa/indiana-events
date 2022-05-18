@@ -21,6 +21,7 @@ function Table() {
       {
         Header: 'Link',
         accessor: 'link',
+        Cell: c => <a href={c.value}><u>{c.value}</u></a>,
       },
       {
         Header: 'Address',
