@@ -1,6 +1,9 @@
 import React from "react";
 import { useTable, usePagination } from "react-table";
 import staticEventData from "../lib/staticEventData";
+import fetchEventData from "../lib/fetchEventData";
+
+fetchEventData('https://selenium.dev');
 
 function Table() {
   const data = React.useMemo(
